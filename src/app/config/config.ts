@@ -1,5 +1,5 @@
-import { WINDOW_HEIGHT, WINDOW_WIDTH } from "@common/consts";
-import { Play, Preload } from "../scenes";
+import { WINDOW_HEIGHT, WINDOW_WIDTH } from '@common/consts';
+import { Play, Preload } from '../scenes';
 
 export const config: Phaser.Types.Core.GameConfig = {
   type: Phaser.AUTO,
@@ -7,7 +7,7 @@ export const config: Phaser.Types.Core.GameConfig = {
   height: WINDOW_HEIGHT,
   // pixelArt: true,
   physics: {
-    default: "arcade",
+    default: 'arcade',
     arcade: {
       debug: true,
     },
